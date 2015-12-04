@@ -102,7 +102,7 @@ get_openstreetmap <- function(
 
 
   # url segments
-  base_url <- 'http://tile.openstreetmap.org/cgi-bin/export?'
+  base_url <- 'https://tile.openstreetmap.org/cgi-bin/export?'
   bbox_url <- paste('bbox=', paste(bbox, collapse = ','), sep = '')
   scale_url <- paste('scale=', as.integer(scale), sep = '')
   format_url <- paste('format=', format, sep = '')

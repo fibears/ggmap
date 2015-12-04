@@ -251,7 +251,7 @@ get_stamenmap <- function(
 
 
   # make urls - e.g. http://tile.stamen.com/[maptype]/[zoom]/[x]/[y].jpg
-  base_url <- "http://tile.stamen.com/"
+  base_url <- "https://tile.stamen.com/"
   base_url <- paste(base_url, maptype, "/", zoom, sep = "")
   urls <- paste(base_url,
     apply(tilesNeeded, 1, paste, collapse = "/"), sep = "/")
